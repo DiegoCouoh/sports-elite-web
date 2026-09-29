@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\Dell Precision 7520\Desktop\Sports Elite\main.py", line 3135, in <module>
+    app = App()
+          ^^^^^
+  File "C:\Users\Dell Precision 7520\Desktop\Sports Elite\main.py", line 758, in __init__
+    self._frames["cotizaciones"] = CotizacionesFrame(self.cont, self)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CotizacionesFrame.__init__() takes 2 positional arguments but 3 were given
