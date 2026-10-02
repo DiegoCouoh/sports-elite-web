@@ -1,0 +1,13 @@
+# No subir fotos pesadas ni caches
+uploads/*
+!uploads/.gitkeep
+uploads/thumbs/
+__pycache__/
+*.pyc
+error_inicio.log
+error_pos.log
+ok_pos.log
+*.zip
+*.rar
+.DS_Store
+Thumbs.db
